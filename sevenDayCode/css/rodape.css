@@ -1,0 +1,64 @@
+/*Rodape*/
+.rodape{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+    margin-top: 4rem;
+    background-color: var(--cor-rodape);
+}
+ .rodape h1{
+    font: var(--main-font);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 10px;
+}
+
+.rodape h2{
+    font: var(--main-font);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+    line-height: 30px;
+    margin: 10px;
+}
+
+.input-botao{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.input-botao input{
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    width: 360px;
+    height: 48px;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    outline: none;
+}
+
+button{
+    outline: none;
+    background-color: var(--main-color);
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    color: #FFF;
+    margin-left: 5px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.rodape span{
+    font: var(--main-font);
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px;
+}

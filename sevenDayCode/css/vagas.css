@@ -1,0 +1,89 @@
+/*Section de vagas*/
+.vaga:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+  
+}
+
+.vagas-container{
+  padding: 7rem 0 3rem 0 ;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vagas-container span{
+  color: var(--main-color);
+  font: var(--main-font);
+  font-weight:500;
+  font-size: 14px;
+  line-height: 20px;
+  background: rgba(142, 36, 36, 0.05);
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.vagas-container h1{
+  font: var(--main-font);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.vagas-container p{
+  color: var(--text-color);
+  font: var(--main-font);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 50%;
+}
+
+.vagas-imagem{
+  display: flex;
+  justify-content: center;
+}
+
+/*Section Vagas Abertas*/
+.vagas-abertas {
+  padding-top: 4rem;
+}
+
+
+  
+.vagas-abertas span.area-principal {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: var(--title-color);
+  font-size: 20px;
+}
+  
+.vaga {
+  border: 1px solid #EAECF0;
+  border-radius: 25px;
+  padding: 2rem;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  color: var(--title-color);
+  font: var(--main-font);
+}
+  
+.vaga span.titulo-vaga {
+  font-size: 18px;
+  font-weight: 500;
+}
+  
+.vagas-descricao {
+  margin-top: 1.5rem;
+  font-size: 16px;
+  color: var(--text-color);
+  display: flex;
+  gap: 2rem;
+}
+

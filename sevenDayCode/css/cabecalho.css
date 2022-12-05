@@ -1,0 +1,48 @@
+/*Cabecalho e menu inicial*/
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.menu-logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu-logo h1{
+    padding-left: 0.5rem;
+    font-size: 18px;   
+}
+
+.menu-links-associados {
+    display: flex;
+
+}
+
+.menu-links-associados a{
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.botoes{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+#botao-login{
+    background-color: var(--main-color);
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    color: #FFF;
+    margin-left: 5px;
+}
+
+
+
+
